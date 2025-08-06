@@ -1,0 +1,27 @@
+{
+  "name": "social-network",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A full featured social networking web app inspired by Facebook using React, Firebase and Tailwind.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "firebase": "^10.9.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.0",
+    "tailwindcss": "^3.3.2",
+    "framer-motion": "^10.15.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.1.0",
+    "autoprefixer": "^10.4.16",
+    "gh-pages": "^6.0.0",
+    "postcss": "^8.4.24",
+    "vite": "^5.2.0"
+  }
+}

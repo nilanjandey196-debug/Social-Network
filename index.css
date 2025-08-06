@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles for the application.  Tailwind's utility classes handle most
+   layout and typography, but additional styles can be added here. */
+body {
+  @apply bg-gray-100 text-gray-800;
+}
